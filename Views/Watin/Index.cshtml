@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2 id="title">Index</h2>
+
+<ul id="mainMenu">
+    <li><a href="@Url.Action("Index","Watin")" id="index">Index</a></li>
+    <li><a href="@Url.Action("Page1","Watin")" id="page1">Page1</a></li>
+    <li><a href="@Url.Action("Page2","Watin")" id="page2">Page2</a></li>
+    <li><a href="@Url.Action("Page3","Watin")" id="page3">Page3</a></li> <!--Its incorrect because Page3 doenst exists... but its ok we want to test it!!!-->
+</ul>
